@@ -20,8 +20,8 @@ export default function TestimonialCard() {
             </div>
           </div>
           <div className="text-base mt-4 line-clamp-5 text-neutral-600">
-            I've been searching for high-quality abstract images for my design projects, 
-            and I'm thrilled to have found this platform. The variety and depth of creativity are astounding!
+            I&apos;ve been searching for high-quality abstract images for my design projects, 
+            and I&apos;m thrilled to have found this platform. The variety and depth of creativity are astounding!
           </div>
         </div>
 
