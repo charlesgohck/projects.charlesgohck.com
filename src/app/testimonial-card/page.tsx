@@ -15,11 +15,11 @@ export default function TestimonialCard() {
               alt="Image of testimonial author"
             />
             <div>
-              <div className="text-lg font-semibold mb-px line-clamp-1 text-neutral-900">Sarah Dole</div>
-              <div className="text-sm font-normal line-clamp-1 text-neutral-600">@sarahdole</div>
+              <div className="text-lg leading-7 font-semibold mb-px line-clamp-1 text-neutral-900">Sarah Dole</div>
+              <div className="text-sm leading-6 font-normal line-clamp-1 text-neutral-600">@sarahdole</div>
             </div>
           </div>
-          <div className="text-base mt-4 line-clamp-5 text-neutral-600">
+          <div className="text-base leading-5 mt-4 line-clamp-5 text-neutral-600">
             I&apos;ve been searching for high-quality abstract images for my design projects, 
             and I&apos;m thrilled to have found this platform. The variety and depth of creativity are astounding!
           </div>
