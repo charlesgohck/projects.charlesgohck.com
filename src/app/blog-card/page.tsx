@@ -17,7 +17,7 @@ export default function BlogCard() {
           </div>
           <div className='pt-6 pb-6 pl-4 pr-4'>
             <div>
-              <button className='bg-green-50 text-green-700 pt-0.25 pb-0.25 pr-2 pl-2 rounded-full border border-green-200'>Interior</button>
+              <button className='bg-green-50 text-green-700 pt-0.25 pb-0.25 pr-2 pl-2 rounded-full border border-green-200 text-sm'>Interior</button>
               <div className='text-lg text-neutral-900 mt-2 font-semibold'>Top 5 Living Room Inspirations</div>
             </div>
             <div className='mt-3'>
