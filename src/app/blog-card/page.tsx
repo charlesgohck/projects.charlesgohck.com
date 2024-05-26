@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import './style.css';
+import styles from './blog-card.module.css'
 
 export default function BlogCard() {
   return (
-    <div className='flex flex-col min-h-screen body'>
+    <div className={`${styles.mainStyles} flex flex-col min-h-screen`}>
       <main className="bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB] flex-1">
         <div className="shadow-md rounded-lg mt-[120px] bg-white w-[340px] h-[504px] mx-auto">
           <div style={{ width: "340px", height: "288px", overflow: "hidden" }} className='rounded-t-lg flex items-center justify-center'>
@@ -18,7 +18,7 @@ export default function BlogCard() {
           <div className='pt-6 pb-6 pl-4 pr-4'>
             <div>
               <button className='bg-green-50 text-green-700 pt-0.25 pb-0.25 pr-2 pl-2 rounded-full border border-green-200'>Interior</button>
-              <div className='text-lg text-neutral-900 mt-2 font-bold'>Top 5 Living Room Aspirations</div>
+              <div className='text-lg text-neutral-900 mt-2 font-semibold'>Top 5 Living Room Inspirations</div>
             </div>
             <div className='mt-3'>
               <div className='text-neutral-600 text-base'>Curated vibrants colors for your living, make it pop & calm in the same time.</div>
@@ -36,7 +36,7 @@ export default function BlogCard() {
           </div>
         </div>
 
-        <div className="credits" data-gfe-screenshot-exclude="true">
+        <div className={styles.credits} data-gfe-screenshot-exclude="true">
           A challenge by&nbsp;
           <a
             href="https://www.greatfrontend.com/projects?ref=challenges"
