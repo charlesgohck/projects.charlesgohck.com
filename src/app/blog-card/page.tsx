@@ -3,7 +3,7 @@ import './style.css';
 
 export default function BlogCard() {
   return (
-    <div className='flex flex-col min-h-screen'>
+    <div className='flex flex-col min-h-screen body'>
       <main className="bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB] flex-1">
         <div className="shadow-md rounded-lg mt-[120px] bg-white w-[340px] h-[504px] mx-auto">
           <div style={{ width: "340px", height: "288px", overflow: "hidden" }} className='rounded-t-lg flex items-center justify-center'>
@@ -17,12 +17,19 @@ export default function BlogCard() {
           </div>
           <div className='p-6'>
             <div>
-              <button className='bg-green-50 text-green-700 pt-1 pb-1 pr-2 pl-2 rounded-full border border-green-200'>Interior</button>
+              <button className='bg-green-50 text-green-700 pt-0.25 pb-0.25 pr-2 pl-2 rounded-full border border-green-200'>Interior</button>
               <div className='text-lg text-neutral-900 mt-2 font-bold'>Top 5 Living Room Aspirations</div>
             </div>
             <div className='mt-3'>
               <div className='text-neutral-600 text-base'>Curated vibrants colors for your living, make it pop & calm in the same time.</div>
-              <button className='text-indigo-700 text-base mt-6 hover:text-indigo-800 disabled:text-neutral-600 focus:text-base focus:border-4 focus:box-content focus:rounded-lg focus:border-indigo-100 focus:text-indigo-800'>Read more &#x2192;</button>
+              <button 
+                className='text-indigo-700 text-base mt-6 hover:text-indigo-800 disabled:text-neutral-600 focus:text-base focus:border-4 focus:box-content focus:rounded-lg focus:border-indigo-100 focus:text-indigo-800'
+                style={{ display: 'flex', alignItems: 'center' }}
+              >
+                Read more &nbsp;<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.4764 6.16658L6.00637 1.69657L7.18487 0.518066L13.6667 6.99992L7.18487 13.4817L6.00637 12.3032L10.4764 7.83325H0.333374V6.16658H10.4764Z" fill="#4338CA"/>
+                </svg>
+              </button>
               <br/>
               {/* <button className='text-base border-4 box-content rounded-lg border-indigo-100 text-indigo-800'>Read more &#x2192;</button> */}
             </div>
