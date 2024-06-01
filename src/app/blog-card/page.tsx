@@ -17,13 +17,13 @@ export default function BlogCard() {
           </div>
           <div className='pt-6 pb-6 pl-4 pr-4'>
             <div>
-              <button className='bg-green-50 text-green-700 pt-0.25 pb-0.25 pr-2 pl-2 rounded-full border border-green-200 text-sm'>Interior</button>
+              <button className='bg-green-50 text-green-700 pt-0.25 pb-0.25 pr-2 pl-2 rounded-full border border-green-200 text-sm font-normal'>Interior</button>
               <div className='text-lg text-neutral-900 mt-2 font-semibold'>Top 5 Living Room Inspirations</div>
             </div>
             <div className='mt-3'>
-              <div className='text-neutral-600 text-base'>Curated vibrants colors for your living, make it pop & calm in the same time.</div>
+              <div className='text-neutral-600 text-base font-medium'>Curated vibrants colors for your living, make it pop & calm in the same time.</div>
               <button 
-                className='text-indigo-700 text-base mt-6 hover:text-indigo-800 disabled:text-neutral-600 focus:text-base focus:border-4 focus:box-content focus:rounded-lg focus:border-indigo-100 focus:text-indigo-800'
+                className='text-indigo-700 text-base font-medium mt-6 hover:text-indigo-800 disabled:text-neutral-600 focus:text-base focus:font-medium focus:border-4 focus:box-content focus:rounded-lg focus:border-indigo-100 focus:text-indigo-800'
                 style={{ display: 'flex', alignItems: 'center' }}
               >
                 Read more &nbsp;<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">

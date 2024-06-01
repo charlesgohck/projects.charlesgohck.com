@@ -19,7 +19,7 @@ export default function TestimonialCard() {
               <div className="text-sm font-normal line-clamp-1 text-neutral-600">@sarahdole</div>
             </div>
           </div>
-          <div className="text-base mt-4 line-clamp-5 text-neutral-600">
+          <div className="text-base font-normal mt-4 line-clamp-5 text-neutral-600">
             I&apos;ve been searching for high-quality abstract images for my design projects, 
             and I&apos;m thrilled to have found this platform. The variety and depth of creativity are astounding!
           </div>
