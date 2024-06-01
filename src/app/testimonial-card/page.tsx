@@ -3,7 +3,7 @@ import './style.css';
 
 export default function TestimonialCard() {
   return (
-    <div className='flex flex-col min-h-screen'>
+    <div className='flex flex-col min-h-screen body-styles'>
       <main className="bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB] flex-1">
         <div className="shadow-md rounded-lg mt-[200px] bg-white max-w-[340px] max-h-[233px] mx-auto p-6">
           <div style={{ display: "flex" }}>
