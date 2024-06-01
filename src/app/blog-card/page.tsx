@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import styles from './blog-card.module.css'
+import './style.css'
 
 export default function BlogCard() {
   return (
-    <div className={`${styles.mainStyles} flex flex-col min-h-screen`}>
+    <div className="flex flex-col min-h-screen body-styles">
       <main className="bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB] flex-1">
         <div className="shadow-md rounded-lg mt-[120px] bg-white w-[340px] h-[504px] mx-auto">
           <div style={{ width: "340px", height: "288px", overflow: "hidden" }} className='rounded-t-lg flex items-center justify-center'>
@@ -36,7 +36,7 @@ export default function BlogCard() {
           </div>
         </div>
 
-        <div className={styles.credits} data-gfe-screenshot-exclude="true">
+        <div className="credits" data-gfe-screenshot-exclude="true">
           A challenge by&nbsp;
           <a
             href="https://www.greatfrontend.com/projects?ref=challenges"
