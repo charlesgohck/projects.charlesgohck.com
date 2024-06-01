@@ -13,7 +13,7 @@ export default function ProfileCard() {
                   width={48} 
                   height={48}
                   className="mr-4"
-                  alt="Image of testimonial author"
+                  alt="Image of profile author"
               />
             </div>
             <div className='mt-6 mb-6'>
