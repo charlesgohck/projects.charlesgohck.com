@@ -25,7 +25,7 @@ export default function ProfileCard() {
             I turn coffee into bugs which are fixed by someone else. Certified Stack Overflow and ChatGPT developer.
           </div>
           <div>
-            <button className='text-base font-medium text-white bg-indigo-700 pt-4 pb-4 pl-2.5 pr-2.5 w-[100%] rounded-md hover:bg-indigo-900 focus:bg-indigo-900 focus:border-4 disabled:bg-neutral-300 disabled:text-neutral-600'>Contact me</button>
+            <button className='text-base font-medium text-white bg-indigo-700 pl-4 pr-4 pt-2.5 pb-2.5 w-[100%] rounded-md hover:bg-indigo-900 focus:bg-indigo-900 focus:border-4 disabled:bg-neutral-300 disabled:text-neutral-600'>Contact me</button>
             <div style={{ display: "flex", justifyContent: "center" }} className='mt-6'>
               <button className='ml-4 mr-4 p-1 hover:bg-zinc-50 hover:rounded-md focus:rounded-md focus:bg-zinc-50 focus:border-4 focus:border-indigo-100'>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
