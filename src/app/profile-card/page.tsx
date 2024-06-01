@@ -10,8 +10,8 @@ export default function ProfileCard() {
             <div style={{ display: 'flex', justifyContent:'center' }}>
               <Image 
                   src="/gfe/testimonial-card/profile-thumbnail.png" 
-                  width={48} 
-                  height={48}
+                  width={64} 
+                  height={64}
                   className="mr-4"
                   alt="Image of profile author"
               />
@@ -21,7 +21,7 @@ export default function ProfileCard() {
               <div className="text-sm font-normal line-clamp-1 text-neutral-600 text-center">Front End Engineer @ Microsoft</div>
             </div>
           </div>
-          <div className="text-base mt-6 line-clamp-5 text-neutral-600 text-center mb-10">
+          <div className="text-base font-normal mt-6 line-clamp-5 text-neutral-600 text-center mb-10">
             I turn coffee into bugs which are fixed by someone else. Certified Stack Overflow and ChatGPT developer.
           </div>
           <div>
