@@ -7,7 +7,7 @@ export default function ProfileCard() {
       <main className="bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB] flex-1">
         <div className="shadow-md rounded-lg mt-[200px] bg-white max-w-[340px] max-h-[428px] mx-auto pt-6 pb-6 pl-4 pr-4">
           <div>
-            <div style={{ display: 'flex', justifyContent:'center' }}>
+            <div className='flex justify-center items-center'>
               <Image 
                   src="/gfe/testimonial-card/profile-thumbnail.png" 
                   width={64} 
