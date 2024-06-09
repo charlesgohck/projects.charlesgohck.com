@@ -6,8 +6,8 @@ export default function HeroSectionSimple() {
     <div className='flex flex-col body-styles'>
       <main className="bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB] p-4 h-screen">
         <div className='flex flex-wrap justify-center items-center pt-2 pb-2 bg-white rounded-md shadow-sm w-full h-full'>
-          <div id="hero-details" className='w-[488px]'>
-            <div className='text-6xl font-semibold text-neutral-900 mb-6'>Well crafted abstract images</div>
+          <div id="hero-details" className='lg:w-[488px] md:w-[704px]'>
+            <div className='lg:text-6xl font-semibold text-neutral-900 mb-6 md:text-5xl'>Well crafted abstract images</div>
             <div className='text-xl font-normal text-neutral-600 mb-16'>High quality abstract images for your projects, wallpaper and presentations.</div>
             <div>
               <button className='text-lg font-medium mr-8 pt-4 pb-4 pl-6 pr-6 rounded-md shadow-sm bg-white focus:border-4 focus:border-0.5 border-gray-300 focus:border-indigo-200 text-neutral-900 disabled:bg-slate-200 disabled:text-gray-400'>Learn more</button>
@@ -15,7 +15,7 @@ export default function HeroSectionSimple() {
             </div>
           </div>
           <Image
-            className='p-4 rounded-2xl'
+            className='p-4 rounded-2xl lg:w-[696px] md:w-[704px]'
             id='hero-image'
             src={"/gfe/hero-section-simple/prism.png"}
             alt={'Photo of prism image for hero section simple project'}
