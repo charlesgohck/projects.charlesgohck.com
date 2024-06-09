@@ -5,7 +5,7 @@ export default function HeroSectionSimple() {
   return (
     <div className='flex flex-col body-styles'>
       <main className="bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB] p-4 h-screen">
-        <div className='flex flex-wrap justify-center items-center pt-2 pb-2 bg-white rounded-md shadow-sm'>
+        <div className='flex flex-wrap justify-center items-center pt-2 pb-2 bg-white rounded-md shadow-sm w-full h-full'>
           <div id="hero-details" className='w-[488px]'>
             <div className='text-6xl font-semibold text-neutral-900 mb-6'>Well crafted abstract images</div>
             <div className='text-xl font-normal text-neutral-600 mb-16'>High quality abstract images for your projects, wallpaper and presentations.</div>
