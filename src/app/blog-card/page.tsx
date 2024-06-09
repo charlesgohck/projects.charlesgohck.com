@@ -23,9 +23,9 @@ export default function BlogCard() {
             <div className='mt-3'>
               <div className='text-neutral-600 text-base font-medium'>Curated vibrants colors for your living, make it pop & calm in the same time.</div>
               <button 
-                className='flex justify-between items-center box-border w-[114px] h-[24px] text-indigo-700 text-base font-medium mt-6 hover:text-indigo-800 disabled:text-neutral-600 border-4 rounded-lg border-transparent focus:border-indigo-100 focus:text-indigo-800'
+                className='flex justify-between items-center box-border w-[114px] h-[24px] text-indigo-700 text-base font-medium mt-6 hover:text-indigo-800 disabled:text-neutral-600 focus:border-4 focus:rounded-lg focus:border-indigo-100'
               >
-                <span className='w-[88px] h-[24px] text-base font-medium'>Read more</span>
+                <span className='w-[88px] h-[24px] text-base font-medium text-left'>Read more</span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.4763 9.16658L9.00633 4.69657L10.1848 3.51807L16.6667 9.99992L10.1848 16.4817L9.00633 15.3032L13.4763 10.8332H3.33333V9.16658H13.4763Z" fill="#4338CA"/>
                 </svg>
